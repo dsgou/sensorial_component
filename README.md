@@ -1,6 +1,6 @@
 * To execute the affect recognition script you have to use the following syntax:
 ```
-python classify.py -i <input_map_name> -o <output_map_name> -s <sampling_rate> [optional] -c <channels> -b <bit_depth> -m <use case>
+python classify.py -i <input_map_name> -o <output_map_name> -c <channels> -b <bit_depth> -m <use case> -s <sampling_rate | optional>
 ```
 * The use case option has to be one of the following
   * MEC, ASC, PMLDC, CGDLC, ITC
